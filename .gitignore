@@ -3,3 +3,6 @@
 .env
 client_secret.json
 token.pickle
+node_modules/
+.next/
+backend/__pycache__/
