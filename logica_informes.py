@@ -166,14 +166,18 @@ def ejecutar_fase_1(load_ids, fecha_cierre_dt, plantillas_bytes, credenciales, d
         except locale.Error:
             print("Advertencia: No se pudo configurar el locale a español.")
 
-    # 2. Descargar Workbooks desde Google Drive en memoria
+    # 2. Descargar/Obtener Workbooks
     try:
-        st.info("Descargando plantillas de Excel desde Google Drive...")
-        coap_bytes = download_file_from_drive(drive_service, plantillas_bytes['coap_file_id'])
+        if drive_service is None:
+            coap_bytes = plantillas_bytes.get('coap_bytes')
+        else:
+            st.info("Descargando plantillas de Excel desde Google Drive...")
+            coap_bytes = download_file_from_drive(drive_service, plantillas_bytes['coap_file_id'])
+            
         wb = load_workbook(filename=io.BytesIO(coap_bytes))
         # st.success("Plantillas de Excel cargadas exitosamente.")
     except Exception as e:
-        raise IOError(f"Error al cargar una de las plantillas de ALCO desde Google Drive: {e}")
+        raise IOError(f"Error al cargar una de las plantillas de ALCO: {e}")
 
     # 2. Cargar Workbooks desde los bytes en memoria
     try:
@@ -3124,24 +3128,32 @@ def ejecutar_fase_1(load_ids, fecha_cierre_dt, plantillas_bytes, credenciales, d
     print("Subiendo archivos Excel actualizados a Google Drive...")
     output_files_info = {}
 
-    # Definir carpetas de salida en Drive
-    reports_folder_id = find_or_create_folder(drive_service, "ALCO_Reports_Generated")
-    if not reports_folder_id:
-        raise Exception("No se pudo encontrar o crear la carpeta de salida en Google Drive.")
-
-    # Subir principal Excel
+    # Definir carpetas de salida en Drive y subir, si drive_service está disponible
     principal_filename = f"ALCO_{mes_actual_nombre}.xlsx"
     principal_buffer = io.BytesIO()
     wb.save(principal_buffer)
-    principal_file_id = upload_file_to_drive(drive_service, principal_filename, principal_buffer.getvalue(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", reports_folder_id)
-    if principal_file_id:
-        output_files_info["principal"] = (principal_filename, principal_file_id)
 
-    return {
-        "principal": (principal_filename, principal_file_id),
-        "efectos": ("Plantilla_Efecto_Balance_Curva_output.xlsx", output_efectos.getvalue()),
-        "datos_medios": ("Plantilla_Datos_Medios_output.xlsx", output_datos_medios.getvalue())
-    }
+    if drive_service is not None:
+        reports_folder_id = find_or_create_folder(drive_service, "ALCO_Reports_Generated")
+        if not reports_folder_id:
+            raise Exception("No se pudo encontrar o crear la carpeta de salida en Google Drive.")
+
+        # Subir principal Excel
+        principal_file_id = upload_file_to_drive(drive_service, principal_filename, principal_buffer.getvalue(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", reports_folder_id)
+        if principal_file_id:
+            output_files_info["principal"] = (principal_filename, principal_file_id)
+
+        return {
+            "principal": (principal_filename, principal_file_id),
+            "efectos": ("Plantilla_Efecto_Balance_Curva_output.xlsx", output_efectos.getvalue()),
+            "datos_medios": ("Plantilla_Datos_Medios_output.xlsx", output_datos_medios.getvalue())
+        }
+    else:
+        return {
+            "principal": (principal_filename, principal_buffer.getvalue()),
+            "efectos": ("Plantilla_Efecto_Balance_Curva_output.xlsx", output_efectos.getvalue()),
+            "datos_medios": ("Plantilla_Datos_Medios_output.xlsx", output_datos_medios.getvalue())
+        }
 
 
 ##########################################################################################
