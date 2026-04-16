@@ -93,8 +93,8 @@ export default function Home() {
               <div className="glass-panel" style={{ background: 'rgba(0,0,0,0.2)' }}>
                 <h3 style={{ marginBottom: '16px' }}>Plantillas de Excel</h3>
                 <div className="input-group">
-                  <label className="input-label">ID de Plantilla COAP (Google Drive)</label>
-                  <input type="text" className="input-field" placeholder="Google Drive ID" defaultValue="ID-AQUI" />
+                  <label className="input-label">Plantilla COAP (.xlsx)</label>
+                  <input type="file" className="input-field" accept=".xlsx,.xls" />
                 </div>
                 <div className="input-group">
                   <label className="input-label">Plantilla_Efecto_Balance_Curva.xlsx</label>
