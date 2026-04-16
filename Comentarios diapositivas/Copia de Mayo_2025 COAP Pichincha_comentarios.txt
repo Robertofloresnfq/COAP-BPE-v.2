@@ -1,0 +1,109 @@
+Comentarios generados para: Plantilla COAP_05.pptx
+Datos del mes: Abril 2025
+Referencia para datos del mes anterior: Marzo 2025
+Rango de diapositivas procesadas: 3 a 19 (excluyendo 13 y 14)
+Nombre del placeholder para comentarios: AI_Comment_Box
+==================================================
+
+--- Diapositiva 3 (Título: Contexto) (Placeholder: AI_Comment_Box) ---
+- En el **Activo**, la proporción de activos a tipo variable aumentó en `***2.1 p.p.***` (de 56.6% en Marzo 2025 a 58.7% en Abril 2025), mientras que la proporción a tipo fijo disminuyó en `***2.1 p.p.***` (de 41.9% en Marzo 2025 a 39.8% en Abril 2025). El vencimiento medio/repr. de los activos variables disminuyó en `***0.2 meses***` (de 5.2 meses en Marzo 2025 a 5.0 meses en Abril 2025), mientras que el de los activos fijos aumentó en `***0.1 meses***` (de 42.7 meses en Marzo 2025 a 42.8 meses en Abril 2025).
+- En el **Pasivo**, la proporción de pasivos a tipo fijo se mantuvo prácticamente estable en `***99.3%***` (99.2% en Marzo 2025). El vencimiento medio/repr. de los pasivos a tipo fijo aumentó en `***0.6 meses***` (de 4.5 meses en Marzo 2025 a 5.1 meses en Abril 2025).
+
+--- Diapositiva 4 (Título: None) (Placeholder: AI_Comment_Box) ---
+- Se observa un movimiento en las curvas de tipos de interés con respecto al mes anterior.
+
+- La curva cupón cero muestra un aplanamiento en los tramos más cortos, con una subida de tipos a partir de los 5 años.
+
+- La curva forward a 12M presenta un descenso generalizado en todos los plazos.
+
+- La curva forward a 3M muestra un comportamiento similar a la forward 12M, con un descenso en los tipos de interés a corto plazo.
+
+--- Diapositiva 5 (Título: Exposición IRRBB | Sensibilidades regulatorias) (Placeholder: AI_Comment_Box) ---
+- Se mantiene el escenario de +200pb como el más perjudicial.
+- Cumplimiento del límite regulatorio del 15%.
+- Se mantiene el escenario de -200pb como el más perjudicial.
+- Cumplimiento del límite regulatorio del 5%.
+
+--- Diapositiva 6 (Título: Exposición IRRBB | Explicación y justificación) (Placeholder: AI_Comment_Box) ---
+- La Sensibilidad de Valor Económico (SVE) ante un shock de +200pb ha **disminuido su riesgo** en ***0.11 M€*** (de ***-14.60%*** en Marzo 2025 a ***-12.88%*** en Abril 2025), lo que indica una menor exposición al riesgo.
+- La Sensibilidad de Margen Financiero (SMF) ante un shock de -200pb ha **aumentado su riesgo** en ***0.43 p.p.*** (de ***-4.39%*** en Marzo 2025 a ***-3.96%*** en Abril 2025), indicando una mayor exposición del margen.
+
+--- Diapositiva 7 (Título: Exposición IRRBB | Detalle de SVE) (Placeholder: AI_Comment_Box) ---
+- En el análisis de la exposición IRRBB, se observa que el total del activo ha disminuido en `***-0.06%***` (de 3743.8 M€ en Marzo 2025 a 3772.1 M€ en Abril 2025).
+- En el activo, destaca la disminución en la inversión crediticia en `***-0.21%***` (de 2293.4 M€ en Marzo 2025 a 2350.8 M€ en Abril 2025), y el aumento en renta fija con cobertura en `***0.34%***` (de 1149.6 M€ en Marzo 2025 a 1173.9 M€ en Abril 2025).
+- El total del pasivo disminuyó en `***-0.18%***` (de 3382.7 M€ en Marzo 2025 a 3420.2 M€ en Abril 2025).
+- En el pasivo, se observa un aumento en depósitos a plazo en `***0.04%***` (de 2543.8 M€ en Marzo 2025 a 2544.4 M€ en Abril 2025), y un aumento en cuentas vista en `***-0.07%***` (de 709.2 M€ en Marzo 2025 a 786.5 M€ en Abril 2025).
+- El total neto aumentó en `***0.88%***` (de 361.1 M€ en Marzo 2025 a 351.9 M€ en Abril 2025).
+
+--- Diapositiva 8 (Título: Exposición IRRBB | Detalle de SMF) (Placeholder: AI_Comment_Box) ---
+- El análisis de la sensibilidad del margen financiero (SMF) para abril de 2025 muestra variaciones significativas en comparación con marzo de 2025.
+
+- En el **Activo**, la SMF s/T1 stock disminuyó en `***0.11%***` (de -8.97% en marzo a -8.86% en abril), mientras que la SMF s/T1 nuevo aumentó en `***0.44%***` (de -5.28% a -4.84%).
+
+- En el **Pasivo**, la SMF s/T1 stock aumentó en `***0.10%***` (de -0.22% a -0.33%), y la SMF s/T1 nuevo disminuyó en `***0.23%***` (de -9.64% a -9.41%).
+
+- El **Total neto** muestra un aumento en la SMF s/T1 stock de `***0.21%***` (de -8.74% a -8.53%) y un aumento en la SMF s/T1 nuevo de `***0.21%***` (de 4.36% a 4.57%).
+
+--- Diapositiva 9 (Título: Exposición CSRBB | Sensibilidades) (Placeholder: AI_Comment_Box) ---
+- La Sensibilidad de Valor Económico (SVE) ante un shock de +50pb ha **disminuido su riesgo** en ***0.16%*** (de ***-8.23%*** en Marzo 2025 a ***-8.07%*** en Abril 2025), lo que indica una **menor** exposición al riesgo.
+- La Sensibilidad de Margen Financiero (SMF) ante un shock de +50pb ha **disminuido su riesgo** en ***0.02%*** (de ***-2.39%*** en Marzo 2025 a ***-2.41%*** en Abril 2025), indicando una **menor** exposición del margen.
+
+--- Diapositiva 10 (Título: Exposición CSRBB| Explicación y justificación) (Placeholder: AI_Comment_Box) ---
+- La Sensibilidad de Valor Económico (SVE) ante un shock de +50pb ha **aumentado su riesgo** en `***-0.15%***` (de `***-8.23%***` en Marzo 2025 a `***-8.07%***` en Abril 2025), lo que indica una **menor** exposición al riesgo.
+- La Sensibilidad de Margen Financiero (SMF) ante un shock de +50pb ha **aumentado su riesgo** en `***-0.02%***` (de `***-2.39%***` en Marzo 2025 a `***-2.41%***` en Abril 2025), indicando una **menor** exposición del margen.
+
+--- Diapositiva 11 (Título: Otras consideraciones| Efecto curva-balance & duraciones) (Placeholder: AI_Comment_Box) ---
+- El principal componente de la variación de la SVE es el efecto balance.
+- El movimiento descendente de la curva influye negativamente en la sensibilidad.
+
+- **Efecto Curva-Balance:** El efecto balance es el principal componente de la variación de la SVE. El efecto balance contribuye con un 2.23%, mientras que el efecto curva contribuye con un -0.51%.
+
+- **Vencimiento / Reprecio:** Se observa un aumento en inversión crediticia y en renta fija. En el pasivo, se observa una disminución en depósitos a plazo.
+
+- **Vencimiento / Reprecio (en meses):**
+    -   En el Activo, la renta fija disminuyó de 55.95 meses en Marzo 2025 a 52.82 meses en Abril 2025. La inversión crediticia disminuyó de 5.51 meses a 5.33 meses. Los depósitos de otras EEFF aumentaron de 2.85 meses a 6.63 meses.
+    -   En el Pasivo, los depósitos a plazo de clientes disminuyeron de 5.05 meses a 4.80 meses.
+
+--- Diapositiva 12 (Título: Otras consideraciones| Escenarios & Simulaciones) (Placeholder: AI_Comment_Box) ---
+- Escenarios de Gestión: Se observa una evolución lineal de los resultados acorde con el incremento de los shocks.
+- Escenarios What-if: Desde un punto de sensibilidad de VE se tiene un menor margen para incrementar posiciones en renta fija, debido al aumento en SVE.
+- Supuestos & modelos: Se mantienen las tipologías de modelos del COAP anterior.
+- En Cuentas vista de 12.7% a 34.2%
+- Depósitos a plazo de 61.6% a 65.2%
+- De aplicación en el COAP de Noviembre
+- Aumento vto medio de 2,54 a 3.20 años
+- De aplicación en el COAP de Octubre
+
+--- Diapositiva 15 (Título: Anexo | CSRBB - Sensibilidad VE) (Placeholder: AI_Comment_Box) ---
+- La sensibilidad al Valor Económico (VE) ante escenarios de gestión de CSRBB se mantiene estable en el mes de análisis.
+- En el escenario de +1PB, la sensibilidad total del VRD Activo se mantiene en -0.16% (Marzo 2025: -0.17%).
+- En el escenario de -1PB, la sensibilidad total del VRD Activo se mantiene en 0.17% (Marzo 2025: 0.17%).
+- En el escenario de +10PB, la sensibilidad total del VRD Activo disminuye su riesgo en `***0.04%***` (de -1.68% en Marzo 2025 a -1.64% en Abril 2025).
+- En el escenario de -10PB, la sensibilidad total del VRD Activo disminuye su riesgo en `***0.03%***` (de 1.69% en Marzo 2025 a 1.66% en Abril 2025).
+- En el escenario de +50PB, la sensibilidad total del VRD Activo disminuye su riesgo en `***0.20%***` (de -8.23% en Marzo 2025 a -8.07% en Abril 2025).
+- En el escenario de -50PB, la sensibilidad total del VRD Activo disminuye su riesgo en `***0.19%***` (de 8.62% en Marzo 2025 a 8.43% en Abril 2025).
+- La sensibilidad del VRD a VR se mantiene estable en todos los escenarios.
+- La sensibilidad del VRD a CA se mantiene estable en todos los escenarios.
+
+--- Diapositiva 16 (Título: Anexo | CSRBB - Sensibilidad Margen Financiero) (Placeholder: AI_Comment_Box) ---
+- La sensibilidad del margen financiero (CSRBB) se presenta para diferentes escenarios de gestión, mostrando el impacto en el margen financiero ante variaciones en los spreads de crédito.
+
+- En Abril 2025, el impacto total ante un shock de +50PB es de ***-2.41%***, mientras que en Marzo 2025 fue de ***-2.39%***. El impacto ante un shock de -50PB es de ***2.69%*** en Abril 2025, ligeramente superior al ***2.54%*** de Marzo 2025.
+
+- El impacto en el activo ante un shock de +50PB es de ***1.44%*** en Abril 2025, ligeramente inferior al ***1.46%*** de Marzo 2025. El impacto en el pasivo ante un shock de +50PB se mantiene estable en ***3.85%***.
+
+--- Diapositiva 17 (Título: Anexo | Escenarios de gestión) (Placeholder: AI_Comment_Box) ---
+- Se aprecia una evolución lineal de los resultados en línea con el incremento de los shocks. Se muestra ligera sensibilidad superior ante bajadas de tipos.
+- Valor económico: El aumento en sensibilidad se debe a una mayor duración del activo, junto con el aumento de renta fija.
+- Margen financiero: el principal motivo del descenso de la sensibilidad es via depósitos a plazo con el aumento significativo en el saldo.
+
+--- Diapositiva 18 (Título: Anexo | Escenarios de gestión - Valor Económico) (Placeholder: AI_Comment_Box) ---
+- En los escenarios de bajadas de tipos de interés, la sensibilidad aumenta en los shocks de puntos básicos más altos y bajos como consecuencia del mayor recorrido de la curva hasta el suelo regulatorio marcado por la EBA (-100 pb en tramos de curva cortos), motivado por el movimiento de la curva este mes.
+
+- Respecto a las subidas, el aumento de la sensibilidad del activo en los shocks cortos y largos (+25pb, +50 pb, +75pb y +100pb) es mayor que el aumento de la sensibilidad del pasivo para esos mismos shocks.
+
+--- Diapositiva 19 (Título: Anexo | Escenarios de gestión - Valor Económico) (Placeholder: AI_Comment_Box) ---
+- En los escenarios de bajadas de tipos de interés, la sensibilidad aumenta en los shocks de puntos básicos más altos y bajos como consecuencia del mayor recorrido de la curva hasta el suelo regulatorio marcado por la EBA (-100 pb en tramos de curva cortos), motivado por el movimiento de la curva este mes.
+
+- Respecto a las subidas, el aumento de la sensibilidad del activo en los shocks cortos y largos (+25pb, +50 pb, +75pb y +100pb) es mayor que el aumento de la sensibilidad del pasivo para esos mismos shocks.
+

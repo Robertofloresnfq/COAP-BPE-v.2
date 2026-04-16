@@ -1,0 +1,46 @@
+```
+# INTRODUCCIÓN
+[SFX: Música de introducción profesional y corporativa, pero accesible - fundido suave hacia abajo y mantener bajo el host]
+HOST: ¡Bienvenidos a 'Finanzas Claras', el podcast donde desglosamos el mundo de la banca para ti! Soy TU_NOMBRE_AQUÍ.
+
+HOST: Hoy, nos adentramos en un componente vital de la gestión bancaria, algo que asegura la estabilidad y la estrategia de una entidad financiera como el Banco Pichincha. Hablaremos de su COAP, el Comité de Activos y Pasivos. ¿Alguna vez te has preguntado cómo un banco maneja los complejos riesgos de tipos de interés o de liquidez? Bueno, el COAP es una pieza clave en ese rompecabezas.
+
+HOST: (Creando intriga) Descubriremos qué decisiones se toman en este comité y por qué son tan cruciales para la salud financiera del Banco Pichincha y, en última instancia, para sus clientes. ¡Quédate con nosotros!
+
+# SEGMENTO 1: ¿Qué es el COAP y por qué es importante para Banco Pichincha?
+HOST: Para empezar, ¿qué es exactamente el COAP? En términos sencillos, el Comité de Activos y Pasivos, o COAP, es el órgano encargado de la gestión integral de los activos y pasivos de un banco. En el caso del Banco Pichincha, este comité juega un papel fundamental en la estrategia financiera.
+
+HOST: Su misión principal es gestionar los riesgos financieros, como el riesgo de tipos de interés, el riesgo de liquidez y otros factores que podrían afectar la rentabilidad y la solidez del banco. Imaginen al COAP como el timón del barco, asegurando que el Banco Pichincha navegue por las aguas financieras con seguridad y eficiencia.
+
+HOST: El COAP se encarga de analizar y tomar decisiones sobre cómo se financia el banco, cómo se invierte el dinero y cómo se gestionan los riesgos asociados a estas operaciones. Esto incluye decisiones sobre la fijación de precios de los préstamos, las tasas de interés que se ofrecen a los depositantes y la estructura general del balance del banco.
+
+# SEGMENTO 2: Analizando el Balance: ¿Cómo gestiona el Banco Pichincha sus Activos y Pasivos?
+[SFX: Transición musical breve y suave]
+HOST: Ahora, vamos a sumergirnos en cómo el COAP del Banco Pichincha analiza y gestiona su balance. El balance es como una fotografía de la situación financiera del banco en un momento dado, mostrando sus activos (lo que posee) y sus pasivos (lo que debe).
+
+HOST: En el análisis del balance, el COAP examina la composición de los activos y pasivos, prestando especial atención a cómo están estructurados en términos de tipos de interés. Por ejemplo, en el último análisis, se observó que la proporción de activos a tipo variable aumentó, mientras que la proporción a tipo fijo disminuyó. Esto significa que una mayor parte de los activos del banco están sujetos a cambios en las tasas de interés.
+
+HOST: También se analiza el vencimiento de estos activos y pasivos. El vencimiento se refiere al tiempo que falta para que un activo o pasivo llegue a su fecha de pago. El COAP monitorea de cerca estos vencimientos para asegurarse de que el banco tenga suficiente liquidez para cumplir con sus obligaciones.
+
+HOST: En el pasivo, la mayor parte de los pasivos del Banco Pichincha son a tipo fijo, lo que proporciona estabilidad en los costos de financiamiento. El COAP monitorea estos factores para asegurar que el banco esté bien posicionado para enfrentar los cambios en el mercado.
+
+# SEGMENTO 3: Navegando la Sensibilidad: El impacto de los tipos de interés (SVE y SMF)
+[SFX: Transición musical breve y suave]
+HOST: Un aspecto crucial del trabajo del COAP es evaluar la sensibilidad del banco a los cambios en los tipos de interés. Para ello, se utilizan dos indicadores clave: la Sensibilidad de Valor Económico (SVE) y la Sensibilidad de Margen Financiero (SMF).
+
+HOST: La SVE mide cómo el valor económico del banco se vería afectado por cambios en los tipos de interés. En el caso del Banco Pichincha, se analiza el impacto de escenarios de subida y bajada de tipos. En el último análisis, se observó que la SVE ante un escenario de subida de tipos de interés disminuyó, lo que indica una menor exposición al riesgo.
+
+HOST: Por otro lado, la SMF mide cómo el margen financiero del banco, es decir, la diferencia entre los ingresos por intereses y los gastos por intereses, se vería afectado por cambios en los tipos de interés. En el análisis, se observó que la SMF ante un escenario de bajada de tipos de interés aumentó, indicando una mayor exposición del margen.
+
+HOST: El COAP también analiza el impacto del riesgo de crédito, es decir, el riesgo de que los prestatarios no puedan pagar sus préstamos. Se evalúa la sensibilidad del banco a los cambios en los spreads de crédito, que son la diferencia entre las tasas de interés de los préstamos y las tasas de interés de referencia.
+
+HOST: En resumen, el COAP utiliza estos indicadores para evaluar y gestionar los riesgos asociados a los tipos de interés y al crédito, asegurando que el Banco Pichincha esté preparado para enfrentar cualquier cambio en el mercado.
+
+# CONCLUSIÓN Y CIERRE
+HOST: En resumen, el Comité de Activos y Pasivos del Banco Pichincha es mucho más que un simple comité. Es el motor que impulsa la gestión estratégica de los riesgos financieros, asegurando la estabilidad y la rentabilidad del banco. Además, el COAP se encarga de analizar y tomar decisiones sobre cómo se financia el banco, cómo se invierte el dinero y cómo se gestionan los riesgos asociados a estas operaciones.
+
+HOST: Así, una gestión prudente y estratégica a través del COAP no solo protege al Banco Pichincha de volatilidades, sino que también cimienta la confianza de sus clientes y contribuye a su solidez a largo plazo.
+
+HOST: Gracias por acompañarnos en este episodio de 'Finanzas Claras'. Esperamos que ahora tengas una mejor comprensión de cómo funciona el corazón financiero del Banco Pichincha. ¡Hasta la próxima!
+[SFX: Música de cierre, similar a la intro, que aumenta y finaliza el episodio]
+```
