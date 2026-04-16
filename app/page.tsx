@@ -17,7 +17,7 @@ export default function Home() {
   });
 
   const [isLoading, setIsLoading] = useState(false);
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://tu-backend-render.com';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://huggingface.co/spaces/tu-usuario/tu-space/api';
 
   const handleRunFase1 = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -33,9 +33,9 @@ export default function Home() {
         });
         
         if(res.ok) {
-            alert('¡Llamada exitosa al backend de Render (Fase 1)!');
+            alert('¡Llamada exitosa al backend de Hugging Face (Fase 1)!');
         } else {
-            alert('Fallo en la llamada al backend. Revisa los logs de Render.');
+            alert('Fallo en la llamada al backend. Revisa los logs del Space.');
         }
     } catch (err) {
         alert(`Error conectando con el backend: ${err}`);
@@ -53,9 +53,9 @@ export default function Home() {
             // body: formData
         });
         if(res.ok) {
-            alert('¡Llamada exitosa al backend de Render (Fase 2)!');
+            alert('¡Llamada exitosa al backend de Hugging Face (Fase 2)!');
         } else {
-            alert('Fallo en la llamada al backend. Revisa logs.');
+            alert('Fallo en la llamada al backend. Revisa logs del Space.');
         }
     } catch (err) {
         alert(`Error conectando con el backend: ${err}`);

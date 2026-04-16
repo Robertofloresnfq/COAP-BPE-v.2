@@ -1,34 +1,23 @@
-# Indica la imagen base que se utilizará como punto de partida
-FROM python:3.11.0-slim
+FROM python:3.10-slim
 
-# Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# Copia los archivos de requerimientos al contenedor
-COPY requirements.txt .
+# Actualizamos repositorios base e instalamos utilidades de compilación básicas necesarias por pandas y librerías científicas
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN python -m pip install --upgrade pip==22.3
+COPY ./requirements.txt /app/requirements.txt
 
-# Instala las dependencias de la aplicación
-RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-RUN apt-get update && apt-get install -y locales
-# Genera el locale es_ES.UTF-8
-RUN echo "es_ES.UTF-8 UTF-8" > /etc/locale.gen && \
-    locale-gen
+# Instalamos las dependencias de Python
+RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
-# Establece las variables de entorno para el locale por defecto
-ENV LANG es_ES.UTF-8
-ENV LC_ALL es_ES.UTF-8
+# Copiamos la estructura del backend y la lógica
+COPY ./backend /app/backend
+COPY ./logica_informes.py /app/logica_informes.py
 
-# Copia el código fuente de la aplicación al contenedor
-COPY . .
+# Exponemos el puerto 7860 (Estricto para Hugging Face Spaces)
+EXPOSE 7860
 
-# Expone el puerto en el que la aplicación escuchará (importante para Cloud Run/GKE)
-EXPOSE 8001
-
-# Define la variable de entorno para el entorno de la aplicación (opcional)
-ENV APP_ENV=production
-
-# Comando para ejecutar la aplicación cuando el contenedor se inicie
-CMD ["streamlit", "run", "app_old.py", "--server.port", "8001"]
+# Comando para ejecutar el backend
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "7860"]

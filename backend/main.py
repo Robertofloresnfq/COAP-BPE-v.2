@@ -15,7 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
-app = FastAPI(title="COAP Pichincha API", description="API Render para Streamlit backend")
+app = FastAPI(title="COAP Pichincha API", description="API Hugging Face para Streamlit backend")
 
 # Añadir CORS
 app.add_middleware(
