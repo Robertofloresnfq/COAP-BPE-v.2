@@ -16,14 +16,52 @@ export default function Home() {
     cierre_up_efecto_balance: '684fe3b7fb975315021049bd',
   });
 
+  const [isLoading, setIsLoading] = useState(false);
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://tu-backend-render.com';
+
   const handleRunFase1 = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Funcionalidad de Fase 1 conectando con API Serverless (En desarrollo)');
+    setIsLoading(true);
+    try {
+        // En una app real de producción, aquí recogerías todos los campos con FormData()
+        // const formData = new FormData(e.target as HTMLFormElement);
+        // formData.append('cierre_base', loadIds.cierre_base); ...
+        
+        const res = await fetch(`${API_URL}/api/fase1`, {
+            method: 'POST',
+            // body: formData
+        });
+        
+        if(res.ok) {
+            alert('¡Llamada exitosa al backend de Render (Fase 1)!');
+        } else {
+            alert('Fallo en la llamada al backend. Revisa los logs de Render.');
+        }
+    } catch (err) {
+        alert(`Error conectando con el backend: ${err}`);
+    } finally {
+        setIsLoading(false);
+    }
   };
 
   const handleRunFase2 = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Funcionalidad de Fase 2 conectando con API Serverless (En desarrollo)');
+    setIsLoading(true);
+    try {
+        const res = await fetch(`${API_URL}/api/fase2`, {
+            method: 'POST',
+            // body: formData
+        });
+        if(res.ok) {
+            alert('¡Llamada exitosa al backend de Render (Fase 2)!');
+        } else {
+            alert('Fallo en la llamada al backend. Revisa logs.');
+        }
+    } catch (err) {
+        alert(`Error conectando con el backend: ${err}`);
+    } finally {
+        setIsLoading(false);
+    }
   };
 
   return (

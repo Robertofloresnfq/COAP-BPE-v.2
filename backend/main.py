@@ -11,9 +11,20 @@ from dotenv import load_dotenv
 # Dependencias del proyecto
 from logica_informes import ejecutar_fase_1, ejecutar_fase_2
 
+from fastapi.middleware.cors import CORSMiddleware
+
 load_dotenv()
 
-app = FastAPI(title="COAP Pichincha API", description="API Vercel para Streamlit backend")
+app = FastAPI(title="COAP Pichincha API", description="API Render para Streamlit backend")
+
+# Añadir CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # Permitir todos para fácil conectividad con Vercel
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ----------------------------------------
 # HEALTH CHECK
